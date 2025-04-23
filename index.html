@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eyob Geletaw | Robotics & Programming</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Dark/Light Mode Toggle -->
+  <div id="theme-toggle">
+    <button id="toggle-button">🌙</button>
+  </div>
+
+  <header class="hero">
+    <div class="overlay">
+      <h1>Eyob Geletaw</h1>
+      <p>Robotics Engineer | Arduino Expert | Software Developer</p>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>I’m Eyob Geletaw, a robotics enthusiast with a strong background in embedded systems and programming. My passion lies in integrating hardware and software to create intelligent machines. I’m highly proficient in Arduino, Python, and C++ and have built various innovative projects. I thrive on solving complex problems and making the world a smarter place through technology.</p>
+    </section>
+
+    <section id="projects" class="section gradient">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Smart Trash Collector Robot</h3>
+        <p>An autonomous robot built using Arduino that detects garbage and collects it. It is equipped with ultrasonic sensors and motor-driven arms for efficient operation.</p>
+      </div>
+      <div class="project">
+        <h3>Gesture-Controlled Vehicle</h3>
+        <p>This project uses an accelerometer and Bluetooth module to control a vehicle based on hand gestures, providing an interactive experience for users.</p>
+      </div>
+      <div class="project">
+        <h3>IoT-Based Smart Room</h3>
+        <p>This smart room system automates lighting, fans, and other appliances using Arduino and IoT technology, allowing control via a smartphone app.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>My Skills</h2>
+      <p>Here are some of my key technical skills:</p>
+      <canvas id="skillsChart"></canvas>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="https://www.linkedin.com" target="_blank" class="social-icon">🔗 LinkedIn</a>
+        <a href="https://github.com" target="_blank" class="social-icon">🐱 GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Eyob Geletaw | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
